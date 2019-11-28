@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="NeedIt" max_length="40" name="x_377929_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="My field" mandatory="true" max_length="100" name="u_string_2" type="string"/>
+    </element>
+</database>
