@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="NeedIt" max_length="40" name="x_377929_needit_needit" type="collection">
+    <element extends="task" label="NeedIt" max_length="40" name="x_377929_needit_needit" sizeclass="5" type="collection">
+        <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="My field" mandatory="true" max_length="100" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="When need" mandatory="true" max_length="40" name="u_when_needed" type="calendar_date_time"/>
     </element>
 </database>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>short_description</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedIt Set Requested for</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate){
+	alert(oldValue + " to " + newValue);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-28 09:04:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a8785e47db914010837a1fc7689619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Set Requested for</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_377929_needit">20533543db114010837a1fc768961943</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">20533543db114010837a1fc768961943</sys_scope>
+        <sys_update_name>sys_script_client_a8785e47db914010837a1fc7689619a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-28 09:04:45</sys_updated_on>
+        <table>x_377929_needit_needit</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">20533543db114010837a1fc768961943</application>
+        <file_path/>
+        <instance_id>ea143994db9257007d8cf22ebf961996</instance_id>
+        <instance_name>dev59756</instance_name>
+        <name>sys_script_client_a8785e47db914010837a1fc7689619a5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;short_description&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;NeedIt Set Requested for&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate){
+	alert(oldValue + " to " + newValue);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-28 09:04:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a8785e47db914010837a1fc7689619a5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeedIt Set Requested for&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_377929_needit"&gt;20533543db114010837a1fc768961943&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;20533543db114010837a1fc768961943&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a8785e47db914010837a1fc7689619a5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-28 09:04:45&lt;/sys_updated_on&gt;&lt;table&gt;x_377929_needit_needit&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-380149684</payload_hash>
+        <record_name>NeedIt Set Requested for</record_name>
+        <reverted_from/>
+        <source>2c533543db114010837a1fc768961944</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-28 09:04:45</sys_created_on>
+        <sys_id>6c785e47db914010837a1fc7689619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16eb1416cca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-28 09:04:45</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>a4785e475d9140106b29237821afada7</update_guid>
+        <update_guid_history>a4785e475d9140106b29237821afada7:-380149684</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-28 09:55:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0255e132e3e74db0800766c9d440c840</sys_id>
+        <sys_metadata>a8785e47db914010837a1fc7689619a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Set Requested for</sys_name>
+        <sys_package display_value="NeedIt" source="x_377929_needit">20533543db114010837a1fc768961943</sys_package>
+        <sys_parent display_value="NeedIt">f7447147db114010837a1fc7689619c5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">20533543db114010837a1fc768961943</sys_scope>
+        <sys_scope_delete display_value="">d5a8151f9f95448281ed594965098904</sys_scope_delete>
+        <sys_update_name>sys_script_client_a8785e47db914010837a1fc7689619a5</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a8785e47db914010837a1fc7689619a5">6c785e47db914010837a1fc7689619a7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-28 09:55:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
