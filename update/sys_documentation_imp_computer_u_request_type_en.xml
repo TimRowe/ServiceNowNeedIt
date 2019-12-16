@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_requested_for" label="Requested for" language="en" table="x_377929_needit_needit">
+    <sys_documentation element="u_request_type" label="Request type" language="en" table="imp_computer">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_requested_for</element>
+            <element>u_request_type</element>
             <help/>
             <hint/>
-            <label>Requested for</label>
+            <label>Request type</label>
             <language>en</language>
-            <name>x_377929_needit_needit</name>
-            <plural>Requested for</plural>
+            <name>imp_computer</name>
+            <plural>Request types</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-04 09:26:32</sys_created_on>
-            <sys_id>0d286cb9dbe10010837a1fc7689619eb</sys_id>
+            <sys_created_on>2019-12-07 07:10:14</sys_created_on>
+            <sys_id>aa845c4adb214010837a1fc76896191b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Requested for</sys_name>
+            <sys_name>Request type</sys_name>
             <sys_package display_value="NeedIt" source="x_377929_needit">20533543db114010837a1fc768961943</sys_package>
             <sys_policy/>
             <sys_scope display_value="NeedIt">20533543db114010837a1fc768961943</sys_scope>
-            <sys_update_name>sys_documentation_x_377929_needit_needit_u_requested_for_en</sys_update_name>
+            <sys_update_name>sys_documentation_imp_computer_u_request_type_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-04 09:26:32</sys_updated_on>
+            <sys_updated_on>2019-12-07 07:10:14</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
